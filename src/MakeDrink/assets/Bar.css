@@ -1,0 +1,40 @@
+.shift{
+    padding-top: 50px;
+}
+.AllStandartDrink{
+    margin-top: 50px;
+}
+
+.mixer{
+    width: 20vh;
+    height: auto;
+    padding: 15px 5px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.mixer img{
+    filter:invert(1)
+}
+p{
+    margin: 0;
+}
+.butRes, .butMix, .status{
+    min-width: 200.59px;
+    background-color: black;
+}
+.butRes button{
+    width: 100%;
+    padding: 7px 0;
+    border: 5px double white;
+    background-color: black;
+    color: white;
+}
+.butMix button{
+    width: 100%;
+    padding: 7px 0;
+    border: 5px double white;
+    background-color: black;
+    color: white;
+}

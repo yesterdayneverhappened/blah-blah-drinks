@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  font-family: PixeloidMono-d94EV;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: black;
+  color: white;
+  height: 100%;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+@font-face {
+  font-family: PixeloidMono-d94EV;
+  src: local('PixeloidMono-d94EV'),url(./fonts/PixeloidMono-d94EV.ttf) format('truetype');
+  font-weight: bold;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+#root {
+  display: flex;
+  justify-content:space-evenly;
+  background-image: url(./imgDrink/dop/town.gif);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+}

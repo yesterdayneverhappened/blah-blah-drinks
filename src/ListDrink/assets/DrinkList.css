@@ -1,0 +1,15 @@
+.drinks-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-gap: 1rem;
+  
+}
+
+.drinks-container li {
+  margin-right: 15px;
+  border-radius: 1px;
+  background-color: rgba(0, 0, 0, 0.622);
+  padding-left: 10px;
+}
+

@@ -1,0 +1,17 @@
+.container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .blockMin {
+    width: 10px;
+    height: 20px;
+    margin: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+    border: 3px solid;
+    background-color: rgb(46, 46, 46);
+  }

@@ -1,0 +1,44 @@
+.container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .block {
+    width: 20px;
+    height: 40px;
+    margin: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+    border: 1px groove;
+  }
+
+  .drink{
+    display: flex;
+  }
+  img{
+    width: 70px;
+    height: 90px;
+  }
+  h3{
+    padding:0 20px;
+    margin: 0;
+  }
+
+  .infoDrink{
+    background-color: black;
+    color: white;
+    width: 20vh;
+    height: auto;
+    padding: 15px 5px;
+  }
+
+  .addBut{
+    padding: 5px 10px;
+    border: 3px white ridge;
+    background-color: black;
+    color: white;
+    font-family: PixeloidMono-d94EV;
+  }
